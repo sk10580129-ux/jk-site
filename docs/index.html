@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>真実のJK日記♡</title>
+
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe6f0, #fff);
+      font-family: "Hiragino Maru Gothic ProN", sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ff66aa;
+      padding: 20px;
+      color: white;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    /* ★ここが進化ポイント */
+    .profile-box {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      gap: 15px;
+    }
+
+    .profile-img {
+      width: 400px;
+      height: 500px;
+      border-radius: 50%;
+      border: 10px solid #ff99cc;
+      object-fit: cover;
+    }
+
+    .profile-text {
+      font-size: 20px;
+      line-height: 2;
+    }
+
+    h2 {
+      color: #ff3399;
+    }
+
+    footer {
+      background-color: #ff66aa;
+      padding: 10px;
+      color: white;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .profile-area {
+        flex-direction: column;
+      }
+
+      .side-img {
+        width: 120px;
+      }
+
+      .profile-text {
+        text-align: center;
+      }
+    }
+
+    .profile-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      /* ←これ超重要（はみ出し防止） */
+      flex-wrap: nowrap;
+    }
+
+    .side-img {
+      width: 80px;
+      /* ←ここでサイズ固定 */
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* ←これもかなり重要 */
+    .profile-text {
+      max-width;
+      /* 中央の幅を固定 */
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    真美のJK日記♡
+  </header>
+
+  <div class="container">
+
+    <!-- プロフィール -->
+    <div class="card">
+
+      <h2>プロフィール💖</h2>
+
+      <div class="profile-area">
+
+        <img src="images/spring.png" class="side-img">
+        <div class="profile-text"> 名前：真美♡<br> 都内の女子校2年🎀<br> 吹奏楽部（笑）<br> カフェ巡り☕・スイーツ🍰好き💕<br> ゆる〜く更新中✨ </div> <img src="images/winter.png" class="side-img">
+      </div>
+    </div>
+
+
+  </div>
+
+  <footer>
+    © 2026 真美のJKページ
+  </footer>
+
+</body>
+
+</html>
